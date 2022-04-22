@@ -1,5 +1,5 @@
 # Home Credit Default Risk Prediction
-Use machine learning to accurately predict a customer’s ability to repay loans
+Link to Kaggle competition: https://www.kaggle.com/c/home-credit-default-risk
 
 ## Background and Context
 Home Credit is an international consumer finance provider, whose goal is to provide a safe experience for people who have little or no credit history. In order to create a positive borrowing experience for the customers, Home Credit utilizes a variety of data attributes to predict a customer’ ability to repay loan. However, there are still many untapped data sources that could be employed to help Home Credit better serve its customers. By having a full understanding of its data, Home Credit could guarantee that the clients’ ability to repay is not rejected and that loans are granted with principal and maturity.
