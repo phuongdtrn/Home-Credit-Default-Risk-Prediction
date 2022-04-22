@@ -18,6 +18,8 @@ We generated some new fields to add on the existing attributes:
 - Credit_Card_Limit: Average credit card Limit balance per SK_ID_CURR
 - Avg_vs_Min_Pay: Average payment compared to minimum required payment. This feature would indicate if, on average, the client makes payments above the established or contracted minimum payment amount.
 
+## Model Building
+We first ran individual models separately to get the best hyper-parameters using GridSearch and RandomizedSearch. After that, we implemented stacking, in which we are stacking up Logistic Regression, XGboost, Adaboost, LightGBM and RandomForest as the base estimators using the best parameters that we got from running them individually. The final estimator is taking the predictions of the previously tuned models as input, flowing through another XGBoost model in order to conduct predictions.
 <img width="557" alt="Screen Shot 2022-04-22 at 6 07 35 PM" src="https://user-images.githubusercontent.com/77939423/164815837-309ae1f4-5276-41ab-8c39-3f055752d191.png">
 
 ## Results
